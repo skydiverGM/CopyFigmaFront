@@ -28,38 +28,30 @@
 </head>
 
 <body>
-<header>
-  <a href="index.html"><img src="img/logo.svg" alt="logo">
+<header class="container header">
+<div class="header-box">
+  <a class="logo" href="index.html"><img src="img/logo.svg" alt="logo">
     UpDate
   </a>
-  <nav>
-    <ul>
+  <nav class="nav">
+    <ul class="nav-list">
       <li>
-        <a href="#">
-          Courses
-        </a>
+        <a class="link" href="#">Courses</a>
       </li>
       <li>
-        <a href="#">
-          Teachers
-        </a>
+        <a class="link" href="#">Teachers</a>
       </li>
       <li>
-        <a href="#">
-          Blog
-        </a>
+        <a class="link" href="#">Blog</a>
       </li>
     </ul>
-    <a href="#">
-      En
-    </a>
-    <a href="#">
-      Sign In
-    </a>
-    <a href="#">
-      Trial Free
-    </a>
   </nav>
+</div>
+  <div class="bnt-box">
+    <a class="header__link" href="#">En</a>
+    <a class="header__link" href="#">Sign In</a>
+    <a class="header__btn" href="#">Trial Free</a>
+  </div>
 </header>
 <main>
   <section class="ui/ux">
@@ -228,130 +220,64 @@
     </form>
   </section>
 </main>
-<footer>
-  <div>
-    <a href="index.html">
-      <img src="img/logo.svg" alt="logo">
-      UpDate
-    </a>
-    <a href="mailto:support@update.com">support@update.com</a>
-    <a href="tel:12136771024">+1 (213) 677 10 24</a>
+<footer class="footer">
+  <div class="footer__main">
+    <div class="footer__logo-box">
+      <a href="index.html" class="footer__logo">
+        <img src="img/logoFooter.svg" alt="logo"> UpDate
+      </a>
+      <a href="mailto:support@update.com" class="footer__contact">support@update.com</a>
+      <a href="tel:12136771024" class="footer__contact">+1 (213) 677 10 24</a>
+    </div>
+
+    <div class="footer__sitemap">
+      <div class="sitemap">
+        <h6 class="sitemap__title">Courses</h6>
+        <ul class="sitemap__list">
+          <li><a href="#">Animation</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Illustration</a></li>
+          <li><a href="#">Programming</a></li>
+          <li><a href="#">Photo & Film</a></li>
+          <li><a href="#">Marketing</a></li>
+        </ul>
+      </div>
+
+      <div class="sitemap">
+        <h6 class="sitemap__title">Teachers</h6>
+        <ul class="sitemap__list">
+          <li><a href="#">All Teachers</a></li>
+          <li><a href="#">Become a Teacher</a></li>
+        </ul>
+      </div>
+
+      <div class="sitemap">
+        <h6 class="sitemap__title">Information</h6>
+        <ul class="sitemap__list">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="sitemap">
+        <h6 class="sitemap__title">Language</h6>
+        <ul class="sitemap__list">
+          <li><a href="#">English</a></li>
+          <li><a href="#">French</a></li>
+          <li><a href="#">Ukrainian</a></li>
+          <li><a href="#">Russian</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 
-  <div class="sitemap">
-    <h6 class="sitemap__title">
-      Courses
-    </h6>
-    <ul class="sitemap__list">
-      <li>
-        <a href="#">
-          Animation
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Design
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Illustration
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Programming
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Photo & Film
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Marketing
-        </a>
-      </li>
-    </ul>
+  <div class="footer__bottom">
+    <a href="#" class="footer__privacy">Policy privacy</a>
+    <p class="footer__copyright">Copyright 2022. All rights reserved</p>
   </div>
-  <div class="sitemap">
-    <h6 class="sitemap__title">
-      Teachers
-    </h6>
-    <ul class="sitemap__list">
-      <li>
-        <a href="#">
-          All Teachers
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Become a Teacher
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="sitemap">
-    <h6 class="sitemap__title">
-      Information
-    </h6>
-    <ul class="sitemap__list">
-      <li>
-        <a href="#">
-          Blog
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          About us
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          FAQ
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="sitemap">
-    <h6 class="sitemap__title">
-      Language
-    </h6>
-    <ul class="sitemap__list">
-      <li>
-        <a href="#">
-          English
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          French
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Ukrainian
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Russian
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="copyright">
-    <a href="#">
-      Policy privacy
-    </a>
-    <p>
-      Copyright 2022. All rights reserved
-    </p>
-  </div>
-
 </footer>
+
 </body>
 
 </html>
