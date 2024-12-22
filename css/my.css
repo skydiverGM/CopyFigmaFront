@@ -72,7 +72,6 @@ body{
   font: 400 18px/28px Inter, sans-serif;
 }
 
-/* Основная часть футера */
 .footer__main {
   display: flex;
   justify-content: space-between;
@@ -81,13 +80,11 @@ body{
   margin-bottom: 30px;
 }
 
-/* Логотип и контакты */
 .footer__logo-box {
-  flex: 1; /* Занимает равное пространство с остальными блоками */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Совместно с align-items в .footer__main выравнивает блок */
-  gap: 10px; /* Равномерный отступ между элементами */
+  justify-content: center;
+  gap: 28px;
 }
 
 .footer__logo {
@@ -101,22 +98,19 @@ body{
   text-decoration: none;
 }
 
-
 .footer__contact {
-  display: block;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   line-height: 28px;
   color: #FBFBFC;
   text-decoration: none;
-  margin: 5px 0;
 }
 
-/* Сайтмап */
+
 .footer__sitemap {
   display: flex;
-  flex: 3; /* Занимает больше пространства */
-  justify-content: space-around; /* Равномерное распределение колонок */
+  flex: 3;
+  justify-content: space-around;
 }
 
 .sitemap {
@@ -138,9 +132,6 @@ body{
   margin: 0;
 }
 
-.sitemap__list li {
-  margin-bottom: 5px;
-}
 
 .sitemap__list a {
   font-weight: 400;
@@ -150,11 +141,6 @@ body{
   text-decoration: none;
 }
 
-.sitemap__list a:hover {
-  color: #FBFBFC;
-}
-
-/* Нижняя часть футера */
 .footer__bottom {
   display: flex;
   justify-content: center;
@@ -169,8 +155,4 @@ body{
 .footer__privacy {
   color: #6D6D77;
   text-decoration: none;
-}
-
-.footer__privacy:hover {
-  color: #FBFBFC;
 }
