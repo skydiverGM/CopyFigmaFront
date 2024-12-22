@@ -1,0 +1,78 @@
+body, header, nav, ul, li, a, p, h1, h2, h3, h4, h6, footer, section, button {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+header a:first-of-type{
+  font-weight: 600;
+}
+
+header nav > a {
+  font-weight: 700;
+}
+
+header nav ul li a{
+  font-weight: 800;
+}
+
+
+.ui/ux {font-weight: 100;}
+
+.ui/ux__duration,
+    .ui/ux__title,
+        .ui/ux__description,
+            .ui/ux__discount,
+                .ui/ux__timer,
+                  .ui/ux__list li {
+font-weight: 600
+}
+
+
+.ui-ux-details {
+  font-weight: 600;
+}
+
+.ui-ux-details .ui-ux-intro,
+.ui-ux-details .ui-ux-stats,
+.ui-ux-details .ui-ux-cards,
+.ui-ux-details .card {
+  font-weight: 600;
+}
+
+
+.pricing {
+  font-weight: 600;
+}
+
+.pricing .pricing-tiers,
+.pricing .pricing-tier,
+.pricing .pricing-tier.optimal,
+.pricing .pricing-tier ul,
+.pricing .pricing-tier ul li,
+.pricing .pricing-tier .price {
+  font-weight: 600;
+}
+
+
+.find-program__title,
+.find-program__description,
+.find-program__form,
+.find-program__label,
+.find-program__button {
+  font-weight: 600;
+}
+
+
+footer {
+  font-weight: 400;
+}
+
+footer .sitemap,
+footer .sitemap__title,
+footer .sitemap__list,
+footer .sitemap__list li,
+footer .copyright {
+  font-weight: 400;
+}
